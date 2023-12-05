@@ -12,6 +12,8 @@ namespace crud.classes
         String nome;
         String sobrenome;
 
+        public CadastroSimples() { }
+
         public CadastroSimples(int id, string nome, string sobrenome)
         {
             this.id = id;
@@ -19,6 +21,7 @@ namespace crud.classes
             this.sobrenome = sobrenome;
         }
 
+        // TESTE COMMIT
 
         // GET E SET
         public int getId()
